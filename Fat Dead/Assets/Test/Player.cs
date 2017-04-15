@@ -6,9 +6,7 @@ public class Player : MonoBehaviour {
 
 	[HideInInspector] public bool facingRight = true;
 	public float speed = 5f;
-	public float projectileSpeed = 10f;
-	public GameObject projectile;
-	public Transform ShootingPoint;
+	public float jumpForce = 5f;
 	public Transform groundCheck;
 
 
@@ -25,10 +23,6 @@ public class Player : MonoBehaviour {
 
 		grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			Shoot ();
-		}
-
 		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
 			Jump ();
 		}
@@ -43,7 +37,7 @@ public class Player : MonoBehaviour {
 		
 		/*if (Input.GetKeyDown(KeyCode.UpArrow)) {
 			rigidBody2d.velocity += new Vector2 (rigidBody2d.velocity.x, 5f);
-		}*/
+		}
 
 		float h = Input.GetAxis("Horizontal");
 
@@ -54,22 +48,34 @@ public class Player : MonoBehaviour {
 		if (h > 0 && !facingRight)
 			Flip ();
 		else if (h < 0 && facingRight)
-			Flip ();
+			Flip ();*/
 
-		Debug.Log (rigidBody2d.velocity);
+		if (Input.GetKey (KeyCode.RightArrow)) {
+			if (!facingRight)
+				Flip ();
+			
+			rigidBody2d.velocity = new Vector2 (speed, rigidBody2d.velocity.y);
+		} else if (Input.GetKeyUp (KeyCode.RightArrow)) {
+			rigidBody2d.velocity = new Vector2 (0, rigidBody2d.velocity.y);
+		}
+
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			if (facingRight)
+				Flip ();
+			
+			rigidBody2d.velocity = new Vector2 (-speed, rigidBody2d.velocity.y);
+		} else if (Input.GetKeyUp (KeyCode.LeftArrow)) {
+			rigidBody2d.velocity = new Vector2 (0, rigidBody2d.velocity.y);
+		}
+
+		//Debug.Log (rigidBody2d.velocity);
 	}
 
 	void Jump(){
-		rigidBody2d.velocity += 5f * Vector2.up;
+		rigidBody2d.AddForce(jumpForce * transform.up, ForceMode2D.Impulse);
 	}
 
-	void Shoot(){
-		GameObject SpawnedObject = Instantiate(projectile, new Vector3(ShootingPoint.position.x, ShootingPoint.transform.position.y), Quaternion.identity) as GameObject;
-		if(facingRight)
-			SpawnedObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (projectileSpeed, 0);
-		else
-			SpawnedObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (-projectileSpeed, 0);
-	}
+
 
 	void Flip()
 	{

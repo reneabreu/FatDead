@@ -166,6 +166,7 @@ public class Player : MonoBehaviour {
 	}
 
 	public void ReloadScene(){
+		Time.timeScale = 1;
 		SceneManager.LoadScene (0);
 	}
 }

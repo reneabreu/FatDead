@@ -20,14 +20,31 @@ public class Gun : MonoBehaviour {
 		audioSource = this.gameObject.GetComponent<AudioSource> ();
 	}
 
+	private bool shooting = false;
 	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		/*if (Input.GetKeyDown (KeyCode.Space)) {
 			animator.SetBool ("Atirando", true);
 			Shoot ();
 		}
 		if (Input.GetKeyUp (KeyCode.Space)) {
 			animator.SetBool ("Atirando", false);
+		}*/
+
+		if (Input.GetAxisRaw("Fire1") == 1)
+		{
+			if (!shooting) {
+				shooting = true;
+				Shoot ();
+				animator.SetBool ("Atirando", true);
+			}
+		}
+		else if (Input.GetAxisRaw("Jump") == 0)
+		{	
+			if (shooting) {
+				animator.SetBool ("Atirando", false);
+				shooting = false;
+			}
 		}
 		
 	}

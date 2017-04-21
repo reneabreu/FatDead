@@ -45,19 +45,15 @@ public class Player : MonoBehaviour {
 		if (grounded)
 			animator.SetBool ("Jumping", false);
 
-		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
-			Jump ();
-		}
-
 		if (Vida <= 0) {
 			ReloadScene ();
 		}
 
 		Move ();
+		Jump ();
 	}
 
 	void FixedUpdate() {
-		//Move ();
 	}
 
 	void Move(){
@@ -79,7 +75,7 @@ public class Player : MonoBehaviour {
 
 
 
-		if (Input.GetKey (KeyCode.RightArrow)) {
+		/*if (Input.GetKey (KeyCode.RightArrow)) {
 			if (!facingRight)
 				Flip ();
 
@@ -110,15 +106,57 @@ public class Player : MonoBehaviour {
 			rigidBody2d.velocity = new Vector2 (0, rigidBody2d.velocity.y);
 			audioSource.Stop ();
 
+		}*/
+		if (Input.GetAxis ("Horizontal") != 0) {
+			
+			// Play Audio Walikng
+			if (!audioSource.isPlaying && grounded) {
+				audioSource.Play ();
+			}
+
+			// Flip
+			if (Input.GetAxis ("Horizontal") > 0 && !facingRight) {
+				Flip ();
+			}
+			if (Input.GetAxis ("Horizontal") < 0 && facingRight) {
+				Flip ();
+			}
+
+			animator.SetBool ("Walking", true);
+			rigidBody2d.velocity = new Vector2 (speed * Input.GetAxis ("Horizontal"), rigidBody2d.velocity.y);
+		} else {
+			animator.SetBool ("Walking", false);
+			audioSource.Stop ();
 		}
+			Debug.Log("Horizontal Pressed");
+
+		
 
 		//Debug.Log (rigidBody2d.velocity);
 	}
 
+	private bool jumping = false;
 	void Jump(){
-		audioSource.PlayOneShot (jump);
+		/*audioSource.PlayOneShot (jump);
 		rigidBody2d.AddForce(jumpForce * transform.up, ForceMode2D.Impulse);
-		animator.SetBool ("Jumping", true);
+		animator.SetBool ("Jumping", true);*/
+
+		
+		if (Input.GetAxisRaw("Jump") == 1)
+		{
+		if (!jumping && grounded)
+			{
+				jumping = true;
+				audioSource.PlayOneShot (jump);
+				rigidBody2d.AddForce(jumpForce * transform.up, ForceMode2D.Impulse);
+				animator.SetBool ("Jumping", true);
+			}
+		}
+		else if (Input.GetAxisRaw("Jump") == 0)
+		{
+			if (grounded)
+				jumping = !jumping;
+		}
 	}
 
 	void Flip(){

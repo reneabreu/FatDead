@@ -31,10 +31,24 @@ public class CameraTilt : MonoBehaviour
  
     }
 
+	private bool shooting = false;
+
 	void Update(){
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		/*if (Input.GetKeyDown (KeyCode.Space)) {
 			ShakeCamera (shakePwr, shakeDur);
+		}*/
+
+		if (Input.GetAxisRaw("Fire1") == 1)
+		{
+			Debug.Log ("Fire1 pressed");
+			if (!shooting) {
+				ShakeCamera (shakePwr, shakeDur);
+			}
+		}
+		else if (Input.GetAxisRaw("Fire1") == 0)
+		{	
+			shooting = false;
 		}
 
 		if (shakeTimer >= 0) {

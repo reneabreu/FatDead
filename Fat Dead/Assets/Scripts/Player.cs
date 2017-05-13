@@ -128,10 +128,7 @@ public class Player : MonoBehaviour {
 			animator.SetBool ("Walking", false);
 			audioSource.Stop ();
 		}
-			Debug.Log("Horizontal Pressed");
-
 		
-
 		//Debug.Log (rigidBody2d.velocity);
 	}
 
@@ -155,7 +152,7 @@ public class Player : MonoBehaviour {
 		else if (Input.GetAxisRaw("Jump") == 0)
 		{
 			if (grounded)
-				jumping = !jumping;
+				jumping = false;
 		}
 	}
 

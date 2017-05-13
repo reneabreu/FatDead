@@ -33,18 +33,16 @@ public class Gun : MonoBehaviour {
 
 		if (Input.GetAxisRaw("Fire1") == 1)
 		{
+			Debug.Log ("Fire1 pressed");
 			if (!shooting) {
+				animator.SetBool ("Atirando", true);
 				shooting = true;
 				Shoot ();
-				animator.SetBool ("Atirando", true);
 			}
 		}
-		else if (Input.GetAxisRaw("Jump") == 0)
+		else if (Input.GetAxisRaw("Fire1") == 0)
 		{	
-			if (shooting) {
-				animator.SetBool ("Atirando", false);
-				shooting = false;
-			}
+			shooting = false;
 		}
 		
 	}
@@ -60,6 +58,12 @@ public class Gun : MonoBehaviour {
 			SpawnedObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (-projectileSpeed, 0);
 
 
+		StartCoroutine (EndAnim ());
+	}
+
+	IEnumerator EndAnim(){
+
+		yield return new WaitForSeconds (0.001f);
 		animator.SetBool ("Atirando", false);
 	}
 }

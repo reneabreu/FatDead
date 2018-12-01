@@ -15,14 +15,30 @@ Platform assembly: D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\Unit
 Loading D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in 16.770 seconds
+- Completed reload, in  0.569 seconds
 Platform assembly: D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Projetos\Unity\EpicGameJam\Game\Fat Dead_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.898785 ms
+UnloadTime: 2.463287 ms
+Player suffered Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player is running from me
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player suffered Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player is running from me
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Zombie's life: 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -72,354 +88,62 @@ Zombie is dead.
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Player detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie is dead.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie is dead.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Zombie's life: 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player suffered Damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Player is running from me
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.319014 ms
+UnloadTime: 3.762551 ms
 
 Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 0.900187 ms (FindLiveObjects: 0.092373 ms CreateObjectMapping: 0.070638 ms MarkObjects: 0.725100 ms  DeleteObjects: 0.011471 ms)
+Total: 0.722685 ms (FindLiveObjects: 0.109278 ms CreateObjectMapping: 0.089354 ms MarkObjects: 0.513788 ms  DeleteObjects: 0.008452 ms)
 
 Zombie's life: 2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player detected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.203872 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 1.188778 ms (FindLiveObjects: 0.117730 ms CreateObjectMapping: 0.054337 ms MarkObjects: 1.002220 ms  DeleteObjects: 0.013282 ms)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player detected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.569139 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 1.234059 ms (FindLiveObjects: 0.140069 ms CreateObjectMapping: 0.076072 ms MarkObjects: 0.995579 ms  DeleteObjects: 0.019923 ms)
 
 Player suffered Damage
  
@@ -429,99 +153,15 @@ Player is running from me
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.161415 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 0.913469 ms (FindLiveObjects: 0.094184 ms CreateObjectMapping: 0.078487 ms MarkObjects: 0.730534 ms  DeleteObjects: 0.009659 ms)
-
 Player suffered Damage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Player is running from me
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.027986 ms
 
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
+Total: 0.892941 ms (FindLiveObjects: 0.092977 ms CreateObjectMapping: 0.065204 ms MarkObjects: 0.722685 ms  DeleteObjects: 0.010867 ms)
 
 Zombie's life: 2
  
@@ -640,297 +280,15 @@ Zombie is dead.
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.606571 ms
+UnloadTime: 1.703170 ms
 
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 1.210513 ms (FindLiveObjects: 0.215537 ms CreateObjectMapping: 0.118938 ms MarkObjects: 0.863962 ms  DeleteObjects: 0.010263 ms)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player detected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.329451 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 785.
-Total: 1.134441 ms (FindLiveObjects: 0.172671 ms CreateObjectMapping: 0.071845 ms MarkObjects: 0.878452 ms  DeleteObjects: 0.009056 ms)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Player detected
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 2
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie's life: 0
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Zombie is dead.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Total: 1.375939 ms (FindLiveObjects: 0.198029 ms CreateObjectMapping: 0.095392 ms MarkObjects: 1.071047 ms  DeleteObjects: 0.008452 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3bac -> priority: 1 
-  Thread -> id: 2b64 -> priority: 1 
+  Thread -> id: 53c8 -> priority: 1 
+  Thread -> id: 4928 -> priority: 1 
